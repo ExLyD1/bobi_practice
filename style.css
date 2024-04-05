@@ -95,7 +95,7 @@ header div a{
   align-items: center;
   flex-wrap: wrap;
 }
-@media screen and (max-width:768px) and (min-width:450px) {
+@media screen and (max-width:1200px) and (min-width:450px) {
   header div{
     width: 90%;
   }
@@ -180,10 +180,9 @@ header div a{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-
 .guarText{
-  height: 100%;
   width: 40%;
   border-top: 1px solid #C9D3D9;
 }
@@ -239,4 +238,23 @@ header div a{
   color: #6157AB;
   text-transform: uppercase;
   display: block;
+}
+@media screen and (max-width:1200px) {
+  .category{
+    margin-top: 50px;
+    width: 80%;
+  }
+  .categoryHolder{
+    /* margin-top: 100px; */
+  }
+  .guarText{
+    width:100%;
+    margin-top: 50px;
+  }
+  .guarBottom{
+    height:160vh;
+  }
+  .guarListItem{
+    width:25%;
+  }
 }
