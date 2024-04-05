@@ -68,7 +68,6 @@ header div a{
   color: #636769;
 }
 .companyHolder{
-  height: 50%;
   padding-top: 40px;
 }
 .hrefHolder{
@@ -77,7 +76,6 @@ header div a{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 .learnMore{
   border-bottom: 1px solid purple;
@@ -95,30 +93,29 @@ header div a{
   align-items: center;
   flex-wrap: wrap;
 }
-@media screen and (max-width:1200px) and (min-width:450px) {
+@media screen and (max-width:1200px) {
   header div{
     width: 90%;
   }
   .information{
-  margin-left: 50px;
-}
-}
-@media screen and (max-width:1200px) {
+    margin-left: 50px;
+  }
   .familyHolder{
     display: none;
+  }
+  .hrefHolder{
+    width:60%;
   }
 }
 
-@media screen and (max-width:425px) {
-  .fullHolder{
-    flex-wrap: wrap;
+@media screen and (max-width:550px) {
+  .information{
+    width:90%;
+    margin:auto;
   }
-  .familyHolder{
-    display: none;
+  .textH1 h1{
+    font-size: 45px;
   }
-  /* .nav{
-    display: none;
-  } */
 } 
 
 /* Section 2222 !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!*/
@@ -182,6 +179,11 @@ header div a{
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+.guarPeople{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .guarText{
   width: 40%;
   border-top: 1px solid #C9D3D9;
@@ -244,17 +246,19 @@ header div a{
     margin-top: 50px;
     width: 80%;
   }
-  .categoryHolder{
-    /* margin-top: 100px; */
-  }
   .guarText{
     width:100%;
     margin-top: 50px;
   }
   .guarBottom{
-    height:160vh;
+    height:150vh;
   }
   .guarListItem{
     width:25%;
+  }
+}
+@media screen and (max-width:670px) {
+  .guarPeopleImg{
+    width:80%;
   }
 }
