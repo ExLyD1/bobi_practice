@@ -57,7 +57,6 @@ header div a{
 }
 .textH1 h1{
   font-size: 64px;
-  line-height: 70.4px;
   width: 100%;
   color:#363B3D;
 }
@@ -137,6 +136,7 @@ header div a{
   margin: auto;
   font-size: 52px;
   color:#333333;
+  text-align: center;
 }
 .selItemIHolder{
   display: flex;
@@ -265,6 +265,27 @@ header div a{
   }
   .guarI p{
     text-align: center;
+  }
+}
+@media screen and (max-width:600px) {
+  header div{
+    width: 100%;
+  }
+  .signButt{
+    padding: 0px 7px;
+    font-size: 16px;
+  }
+  .guarMiddleText h1{
+    padding-top: 50px;
+  }
+  .guarBottom{
+    margin-top: 70px;
+  }
+  .guarI p{
+    font-size: 14px;
+  }
+  .textH1 h1{
+    font-size: 37px;
   }
 }
 /* Section 3333 !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!*/
