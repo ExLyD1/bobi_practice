@@ -399,6 +399,7 @@ header div a{
   border-top: 1px solid #B2A9EF;
   margin-top: 80px;
   padding-top: 80px;
+  padding-bottom: 100px;
 }
 .facts{
   display: flex;
@@ -465,4 +466,95 @@ header div a{
     padding-top: 10px;
     font-size: 10px;
   }
+}
+/* Section 4444 !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.solutionsHolder{
+  width: 90%;
+  background-color: #574D9C;
+  margin: auto;
+}
+.ourSolHold{
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}
+.ourSolHold p{
+  font-size: 51px;
+  color: white;
+}
+.solSelHolder{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+  margin: auto;
+}
+.solSelectors{
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+}
+.swiperHolder{
+  margin-top: 50px;
+}
+.slider_wrapper{
+  width: 60% !important;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto !important;
+}
+.slide1{
+  
+}
+.slide1PartsHolder{
+  padding:30px 0px 30px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.slide1Parts{
+  width: 45%;
+}
+.slide1Parts img{
+  width: 100%;
+}
+.turnAn{
+  margin-top: 140px;
+  font-size: 32px;
+}
+.onceYour{
+  color: #636769;
+  margin-top: 50px;
+}
+.solLearnHolder{
+  display: flex;
+  margin-top: 30px;
+}
+.solLearnHolder a{
+  border-radius: 5px;
+  background-color: #7569CF;
+  color: white;
+  padding: 12px 17px;
+}
+.bookBefore{
+  border-top: 1px solid #9AA6AC;
+  margin-top: 70px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.bookBefore p{
+  color:#6157AB;
+  display: flex;
+  align-items: center;
+}
+.bookBefore p::before{
+  content: url("images/book.svg");
+  padding: 0px 15px 0px 15px;
+  text-align: center;
 }
