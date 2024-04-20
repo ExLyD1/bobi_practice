@@ -41,9 +41,6 @@ solutionsSelectors.forEach((element, index) => {
   });
 });
 
-
-
-
 const itemHolder = document.querySelectorAll(".selItemHolder .selItem")
 
 itemHolder.forEach(element => {
@@ -58,7 +55,6 @@ itemHolder.forEach(element => {
     })
   })
 });
-
 document.addEventListener('DOMContentLoaded', function() {
   const activeSlideIndex = swiper.activeIndex; 
   const activeDiv = document.querySelector(`[data-slide-index="${activeSlideIndex}"]`);
