@@ -688,3 +688,75 @@ header div a{
     font-size: 14px;
   }
 }
+@media screen and (max-width:760px) {
+  .slidePart2{
+    display: none;
+  }
+  .slidePart1{
+    width:80%;
+  }
+  .underHappy{
+    height: 60%;
+  }
+  .swiper-button-prev::after{
+    padding-left: 60px;
+  }
+  .swiper-button-next::after{
+    padding-right: 60px;
+  }
+}
+@media screen and (max-width:565px) {
+  .partsHolder{
+    width: 50%;
+    padding: 20px 0px;
+  }
+  .firstItemComp{
+    font-size: 10px;
+  }
+  .secItemComp{
+    font-size: 12px;
+  }
+  .swiper-button-prev::after{
+    padding-left: 50px;
+  }
+  .swiper-button-next::after{
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width:425px) {
+  .swiper-button-next::after, .swiper-button-prev::after{
+    border:1px solid white;
+    border-radius: 50%;
+    padding:15px;
+    color: white;
+  }
+  .swiper-button-prev::after{
+    margin-left: 20px;
+    content: "NEXT";
+    font-size: 11px;
+  }
+  .swiper-button-next::after{
+    margin-right: 20px;
+    content: "PREV";  
+    font-size: 11px;
+  }
+  .secItemComp{
+    font-size: 11px;
+  }
+  .partsHolder{
+    width: 55%;
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width:350px) {
+  .swiper-button-prev::after{
+    margin-left: 20px;
+    font-size: 11px;
+    padding:12px;
+  }
+  .swiper-button-next::after{
+    margin-right: 20px; 
+    font-size: 11px;
+    padding:12px;
+  }
+}
