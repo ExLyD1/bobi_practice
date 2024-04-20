@@ -154,6 +154,7 @@ header div a{
   flex-wrap: wrap;
   width: 100%;
   margin-top: 50px;
+  gap: 20px;
 }
 .selItem{
   display: flex;
@@ -500,9 +501,12 @@ header div a{
   width: 80%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-top: 40px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
   margin: auto;
+  margin-top: 40px;
 }
 .solSelectors{
   text-align: center;
@@ -511,6 +515,7 @@ header div a{
   padding: 10px 20px;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 .solSelectorsCol{
   text-align: center;
@@ -519,6 +524,7 @@ header div a{
   border-radius: 5px;
   color: #574D9C;
   background-color: white;
+  cursor: pointer;
 }
 .swiperHolder{
   margin-top: 50px;
@@ -559,11 +565,18 @@ header div a{
 .slidePart1, .slidePart2{
   width:45%;
 }
+.slidePart1{
+  background-color: #E7ECEE;
+}
 .happyHolder{
   width: 100%;
 }
-.slidePart1{
-  background-color: #E7ECEE;
+.underHappy{
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 .homeWon{
   font-size: 11px;
@@ -571,7 +584,7 @@ header div a{
   display: flex;
   justify-content: center;
   align-items: end;
-  margin-top: 30px;
+  text-align: center;
 }
 .homeWon::after, .homeWon::before{
   content: "";
@@ -583,12 +596,10 @@ header div a{
   display: flex;
   justify-content: end;
   margin: auto;
-  padding-top: 40px;
 }
 .comparison1{
   width: 80%;
   margin: auto;
-  margin-top: 30px;
   padding-top: 30px;
   border-top: 1px solid #C7C1F3;
   display: flex;
@@ -612,7 +623,6 @@ header div a{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 30px;
 }
 
 .turn{
@@ -649,4 +659,32 @@ header div a{
 .bookBefore p::before{
   content: url(images/book.svg);
   padding-right: 20px;
+}
+@media screen and (max-width:1300px) {
+  .underHappy{
+    height: 70%;
+  }
+}
+@media screen and (max-width:860px) {
+  .underHappy{
+    height: 80%;
+  }
+  .turn{
+    font-size: 25px;
+  }
+  .once{
+    font-size: 16px;
+  }
+  .solLearn a{
+    padding: 10px 20px;
+  }
+  .bookBefore p{
+    font-size: 14px;
+  }
+  .bookBefore p::before{
+    padding-right: 10px;
+  }
+  .secItemComp{
+    font-size: 14px;
+  }
 }

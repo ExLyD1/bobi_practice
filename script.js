@@ -8,6 +8,9 @@ const swiper = new Swiper('.swiper-container', {
     clickable: true,
     dynamicBullets: true,
   },
+  hashNavigation: {
+    watchState: true,
+  },
 });
 
 const solutionsSelectors = document.querySelectorAll(".solSelHolder .solSelectors");
@@ -54,4 +57,10 @@ itemHolder.forEach(element => {
     }
     })
   })
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const activeSlideIndex = swiper.activeIndex; 
+  const activeDiv = document.querySelector(`[data-slide-index="${activeSlideIndex}"]`);
+  activeDiv.classList.add('solSelectorsCol');
 });
