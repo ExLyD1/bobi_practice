@@ -847,3 +847,107 @@ header div a{
     margin-top: 50px;
   }
 }
+/* Section 6666 !!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!! !!!!!!!!!!!!!!!!!!!!!!!!*/
+.back3{
+  margin: 0 auto;
+  background-color: #050302;
+}
+.footerHolder{
+  width: 90%;
+  padding-top: 100px;
+  margin: auto;
+}
+.footerLinksHolder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fotImgHolder{
+  cursor: pointer;
+}
+.fotItemHol{
+  display: flex;
+  flex-direction: column;
+}
+.fotTitle{
+  font-size: 14px;
+  color:white;
+  text-transform: uppercase;
+}
+.fotItems{
+  padding-top: 20px;
+}
+.fotI{
+  color:white;
+  padding-top: 15px;
+  cursor: pointer;
+}
+.docHolder{
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.clickFor{
+  font-size: 16px;
+  color:#F5F4F2;
+}
+.terms{
+  display: flex;
+  flex-direction: row;
+}
+.termsText1{
+  font-size: 16px;
+  color: white;
+}
+.termsText2{
+  font-size: 16px;
+  padding-left: 10px;
+  color: white;
+}
+.politic{
+  padding-top: 10px;
+  font-size: 14px;
+  color: #E7ECEE;
+}
+.mediaHolder{
+  display: flex;
+  flex-direction: row;
+}
+.inst{
+  padding-left: 50px;
+}
+@media screen and (max-width:750px) {
+  .fotImgHolder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .footerLinksHolder{
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .docHolder{
+    margin-top: 100px;
+    flex-wrap: wrap;
+  }
+  .partnerHolder{
+    width: 100%;
+  }
+  .privacyHolder{
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width:570px) {
+  .footerLinksHolder{
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width:450px) {
+  .mediaHolder{
+    margin-top: 30px;
+  }
+}
