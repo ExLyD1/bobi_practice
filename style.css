@@ -146,7 +146,7 @@ header div a{
   color:#333333;
   text-align: center;
 }
-.selItemIHolder{
+.selItemHolder{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -163,8 +163,20 @@ header div a{
   border: 1px solid #AAB8BF;
   border-radius: 15px;
   padding:15px 30px;
+  cursor: pointer;
+  color:#7A858A;
+  text-align: center;
 }
-.selItem a{
+.selItemCol{
+  background-color: #ECEAF8;
+  border: 1px solid #6157AB;
+  color: #6157AB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding:15px 30px;
+  cursor: pointer;
   color:#7A858A;
   text-align: center;
 }
@@ -499,6 +511,14 @@ header div a{
   padding: 10px 20px;
   border-radius: 5px;
   color: white;
+}
+.solSelectorsCol{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #574D9C;
+  background-color: white;
 }
 .swiperHolder{
   margin-top: 50px;
